@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+$primary:#7289DA;
+$body-background-color: #2C2F33;
+$darker:#23272A;
+$dark:#2C2F33;
+
+@import "./bulma-0.9.0/bulma.sass";
+.navbar{
+background-color: $darker;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius:5px;
+}
+#app{
+  position: relative;
+  display: block;
+  width:100%;
+  min-height:100vh;
+  background-color: #2C2F33
+}
+html,body{
+  min-height: 100vh;
+  overflow: hidden;
+}
+*{
+  appearence:none;
+  --webkit-appearence:none;
+}
+#app::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#app::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#app::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
