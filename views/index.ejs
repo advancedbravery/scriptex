@@ -13,8 +13,11 @@
     <%- include('pages/'+(typeof page!=="undefined"?page:"main")) %>
   </div>
   <%-
-  (()=>{ if(typeof libs=="undefined"){libs=["main"]}
-return libs.map(lib=>{ return `<script defer src="/js/${lib}.js"></script>`}).join()
+  (()=>{
+    if(typeof data=="undefined"){data={}}
+
+    if(typeof libs=="undefined"){libs=["main"]}
+return `<script>window.data=${JSON.stringify(data)}</script>`+libs.map(lib=>{ return `<script defer src="/js/${lib}.js"></script>`}).join()
 })()%>
 </body>
 

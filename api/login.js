@@ -18,7 +18,7 @@ module.exports=async(req,res,next)=>{
     })
   })
   discord_resp=await discord_resp.json()
-  res.cookie("token",discord_resp.access_token)
+
   if(typeof discord_resp.access_token=="undefined"){
     return res.json({ok:false,error:"invalid token"})
   }
@@ -28,4 +28,5 @@ module.exports=async(req,res,next)=>{
   connections=await connections.json()
   let githubs=connections.filter(connection=>{return connection.type=="github"&&connection.verified==true}).map(c=>c.name)
   db.collection("githubs").updateOne({user:user.id},{$set:{githubs:githubs}},{upsert:true})
+  res.render("index",{libs:["login"],data:{token:discord_resp.access_token}})
 }
