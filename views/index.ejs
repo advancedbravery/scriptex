@@ -17,7 +17,7 @@
     if(typeof data=="undefined"){data={}}
 
     if(typeof libs=="undefined"){libs=["main"]}
-return `<script>window.data=${JSON.stringify(data)}</script>`+libs.map(lib=>{ return `<script defer src="/js/${lib}.js"></script>`}).join()
+return `<script>window.data=${JSON.stringify(data)};if(window.location.pathname!=="/login"){document.cookie="redirect="+window.location.href}</script>`+libs.map(lib=>{ return `<script defer src="/js/${lib}.js"></script>`}).join()
 })()%>
 </body>
 

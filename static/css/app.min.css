@@ -322,7 +322,7 @@ pre {
 }
 
 body {
-  color: #4a4a4a;
+  color: #fff;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
@@ -387,7 +387,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #4a4a4a;
+  color: #fff;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -417,7 +417,7 @@ table th {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: #4a4a4a;
+  color: #fff;
   display: block;
   padding: 1.25rem;
 }
@@ -480,7 +480,7 @@ a.box:active {
 .button.is-text {
   background-color: transparent;
   border-color: transparent;
-  color: #4a4a4a;
+  color: #fff;
   text-decoration: underline;
 }
 .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
@@ -1967,13 +1967,13 @@ a.box:active {
   background-color: #ededed;
 }
 .progress::-webkit-progress-value {
-  background-color: #4a4a4a;
+  background-color: #fff;
 }
 .progress::-moz-progress-bar {
-  background-color: #4a4a4a;
+  background-color: #fff;
 }
 .progress::-ms-fill {
-  background-color: #4a4a4a;
+  background-color: #fff;
   border: none;
 }
 .progress.is-white::-webkit-progress-value {
@@ -2102,7 +2102,7 @@ a.box:active {
   animation-name: moveIndeterminate;
   animation-timing-function: linear;
   background-color: #ededed;
-  background-image: linear-gradient(to right, #4a4a4a 30%, #ededed 30%);
+  background-image: linear-gradient(to right, #fff 30%, #ededed 30%);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 150% 150%;
@@ -2276,10 +2276,10 @@ a.box:active {
   width: 100%;
 }
 .table.is-hoverable tbody tr:not(.is-selected):hover {
-  background-color: #fafafa;
+  background-color: #2C2F33;
 }
 .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover {
-  background-color: #fafafa;
+  background-color: #2C2F33;
 }
 .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover:nth-child(even) {
   background-color: whitesmoke;
@@ -2289,7 +2289,7 @@ a.box:active {
   padding: 0.25em 0.5em;
 }
 .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
-  background-color: #fafafa;
+  background-color: #2C2F33;
 }
 
 .table-container {
@@ -2356,7 +2356,7 @@ a.box:active {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 4px;
-  color: #4a4a4a;
+  color: #fff;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -2555,7 +2555,7 @@ a.tag:hover {
 }
 
 .subtitle {
-  color: #4a4a4a;
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25;
@@ -3342,7 +3342,7 @@ a.tag:hover {
 
 .file-cta {
   background-color: whitesmoke;
-  color: #4a4a4a;
+  color: #fff;
 }
 
 .file-name {
@@ -3599,7 +3599,7 @@ a.tag:hover {
 .control.has-icons-left .input:focus ~ .icon,
 .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
 .control.has-icons-right .select:focus ~ .icon {
-  color: #4a4a4a;
+  color: #fff;
 }
 .control.has-icons-left .input.is-small ~ .icon,
 .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
@@ -3731,7 +3731,7 @@ a.tag:hover {
 .card {
   background-color: white;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: #4a4a4a;
+  color: #fff;
   max-width: 100%;
   position: relative;
 }
@@ -3835,7 +3835,7 @@ a.tag:hover {
 }
 
 .dropdown-item {
-  color: #4a4a4a;
+  color: #fff;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -4044,7 +4044,7 @@ button.dropdown-item.is-active {
 }
 .menu-list a {
   border-radius: 2px;
-  color: #4a4a4a;
+  color: #fff;
   display: block;
   padding: 0.5em 0.75em;
 }
@@ -4205,9 +4205,9 @@ button.dropdown-item.is-active {
 
 .message-header {
   align-items: center;
-  background-color: #4a4a4a;
+  background-color: #fff;
   border-radius: 4px 4px 0 0;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.7);
   display: flex;
   font-weight: 700;
   justify-content: space-between;
@@ -4231,7 +4231,7 @@ button.dropdown-item.is-active {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: #4a4a4a;
+  color: #fff;
   padding: 1.25em 1.5em;
 }
 .message-body code,
@@ -4956,7 +4956,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: #4a4a4a;
+  color: #fff;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -5004,7 +5004,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #fff;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -5025,7 +5025,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .navbar-link:focus-within,
 .navbar-link:hover,
 .navbar-link.is-active {
-  background-color: #fafafa;
+  background-color: #2C2F33;
   color: #3273dc;
 }
 
@@ -5338,7 +5338,7 @@ body.has-spaced-navbar-fixed-bottom {
   }
 
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #fafafa;
+    background-color: #2C2F33;
   }
 }
 .hero.is-fullheight-with-navbar {
@@ -5640,7 +5640,7 @@ body.has-spaced-navbar-fixed-bottom {
 }
 
 .panel-list a {
-  color: #4a4a4a;
+  color: #fff;
 }
 .panel-list a:hover {
   color: #3273dc;
@@ -5716,7 +5716,7 @@ label.panel-block:hover {
   border-bottom-color: #dbdbdb;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  color: #4a4a4a;
+  color: #fff;
   display: flex;
   justify-content: center;
   margin-bottom: -1px;
@@ -9833,7 +9833,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .footer {
-  background-color: #fafafa;
+  background-color: #2C2F33;
   padding: 3rem 1.5rem 6rem;
 }
 

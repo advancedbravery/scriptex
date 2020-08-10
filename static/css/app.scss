@@ -1,16 +1,18 @@
 @charset "utf-8";
-
+@import './bulma-0.9.0/sass/utilities/functions.sass';
 $primary:#7289DA;
 $body-background-color: #2C2F33;
 $darker:#23272A;
 $dark:#2C2F33;
-
+$scheme-main-bis:$dark;
+$text: findColorInvert($darker);
 @import "./bulma-0.9.0/bulma.sass";
 .navbar{
 background-color: $darker;
 border-bottom-left-radius: 5px;
 border-bottom-right-radius:5px;
 }
+
 #app{
   position: relative;
   display: block;

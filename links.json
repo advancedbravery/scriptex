@@ -1,6 +1,7 @@
 {
   "GET":{
     "/login":"login",
-    "/":"index"
+    "/":"index",
+    "/auth":"auth.js"
   }
 }
